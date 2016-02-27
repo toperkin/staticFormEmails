@@ -15,13 +15,13 @@ How to put forms which send emails on action into static sites without redirect
 
 ## step 2 - make a google form with the same fields
 
-![alt text](https://github.com/toperkin/staticFormEmails/raw/master/src/newForm.png "Google Form")
+![alt text](https://github.com/toperkin/staticFormEmails/raw/master/newForm.png "Google Form")
 
 ## step 3 - We need to know what google calls these fields.  Make a pre-filed form, fill with anything, and grab the link.
 
-![alt text](https://github.com/toperkin/staticFormEmails/raw/master/src/prefilled.png "Pre-filled link")
+![alt text](https://github.com/toperkin/staticFormEmails/raw/master/prefilled.png "Pre-filled link")
 
-![alt text](https://github.com/toperkin/staticFormEmails/raw/master/src/getlink.png "Get link")
+![alt text](https://github.com/toperkin/staticFormEmails/raw/master/getlink.png "Get link")
 
 ```
 https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/viewform?entry.810989529=garbageFirstName&entry.463380756=garbageLastName
