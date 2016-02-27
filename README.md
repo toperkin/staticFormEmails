@@ -60,10 +60,17 @@ That's it.  You now have an html form that upon submit completes the google form
 Here is some demo shots from a website I'm making:
 
 Here's just an empty form with some css styling...
+
 ![alt text](https://github.com/toperkin/staticFormEmails/raw/master/1.png "Empty form")
+
 You fill it out with whatever ...
+
 ![alt text](https://github.com/toperkin/staticFormEmails/raw/master/2.png "Filled form")
+
 The user sees just this upon submit...
+
 ![alt text](https://github.com/toperkin/staticFormEmails/raw/master/3.png "Result of submit")
+
 This is what it looks like in my response spreadsheet...
+
 ![alt text](https://github.com/toperkin/staticFormEmails/raw/master/4.png "Response")
