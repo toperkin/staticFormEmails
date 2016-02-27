@@ -55,3 +55,10 @@ $('#gform').on('submit', function(e) {
 ```
 
 That's it.  You now have an html form that upon submit completes the google form (which can easily be set up to populate a spreadsheet and/or email you), but DOES NOT REDIRECT, instead just fades away and is replaces with a friendly message.
+
+## demo :
+Here is some demo shots from a website I'm making:
+
+![alt text](https://github.com/toperkin/staticFormEmails/raw/master/1.png "Empty form")
+![alt text](https://github.com/toperkin/staticFormEmails/raw/master/2.png "Filled form")
+![alt text](https://github.com/toperkin/staticFormEmails/raw/master/3.png "Result of submit")
