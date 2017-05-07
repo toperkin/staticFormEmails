@@ -27,10 +27,10 @@ How to put forms which send emails on action into static sites without redirect
 https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/viewform?entry.810989529=garbageFirstName&entry.463380756=garbageLastName
 ```
 
-## step 4 - use the entry fields from the pre-filled link for your form name/ids, and set the action to direct to your google form.  Also add some hidden_iframes, this is used to block the redirect.
+## step 4 - use the entry fields from the pre-filled link for your form name/ids, and set the action to direct to your google form.  Also add some hidden_iframes, this is used to block the redirect. Don't forget change the final link from viewform? to formResponse?
 
 ```html
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/14lh6MIQOy9j3jWzEl7BysxEe4p9OoU9WN3tytbQjj1I/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   First name:<br>
   <input type="text" name="entry.810989529" id="entry.810989529"><br>
   Last name:<br>
